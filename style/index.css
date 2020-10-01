@@ -349,8 +349,69 @@
   }
 
 
-  
+
 
 html {
 font-size:10px;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 7rem;
+    font-weight: 400;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+}
+
+.headNav{
+    display:flex;
+    justify-content:center;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+.headNav a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Courier Prime', monospace;
+    font-size: 2rem;
+    
+
+}
+
+h2{
+    display:flex;
+    justify-content: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.navbutton {
+    width: 0%;
+}
+
+.navbutton:hover{
+    text-transform: uppercase;
+    /* color:#f794c3; */
+    color: #d95793;
+}
+
+.p1 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+}
+
+.mainImg {
+max-width: 100%;
+   display:flex;
+   justify-content: center;
+   /* position: relative;
+   left: 10rem; */
+   padding-bottom: 2rem;
+
 }
