@@ -453,7 +453,7 @@ footer {
     font-family: 'Courier Prime', monospace;
     font-size: 2rem;
     height: 30%;
-    /* word-spacing: 2rem; */
+  
     
 }
 
@@ -461,6 +461,8 @@ footer {
     text-transform: uppercase;
     color: white;
 }
+
+/* Adding Responsive Design*/
     
 @media (max-width:800px) {
 
@@ -496,7 +498,53 @@ footer {
     .headNav {
     justify-content: space-evenly;
     padding-right: 10%;
-    margin: 2%;
+    margin-top: 2%;
     }
+  }
 
-}
+  @media (max-width:500px){
+    .headNav {
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      border: none;
+      margin-top:7%;
+    }
+    .headNav a{
+      width: 40%;
+      border: 1px solid black;
+      display: inline-block;
+      text-align: center;
+    }
+    .navbutton {
+    padding: 2%;
+      }
+    h2 {
+      padding-top: 3%;
+    }
+      .p1 p {
+      padding: 4%;
+      }
+
+      .mainImg {
+        height: 18vh;
+        padding: 2%;
+      }
+      .p2 {
+        margin-bottom: -50%;
+        padding: 0 5%;
+      }
+      footer {
+        height: 15vh;
+      }
+      .footNav {
+        padding-top: 10%;
+      }
+
+     
+
+
+
+
+  } /*closing tag for media*/
