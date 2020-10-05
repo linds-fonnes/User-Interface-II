@@ -352,7 +352,7 @@
 
 
   /* * {
-      border: 10px solid red;
+      border: 5px solid red;
   } */
 html {
 font-size:10px;
@@ -462,3 +462,41 @@ footer {
     color: white;
 }
     
+@media (max-width:800px) {
+
+  .gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: stretch;
+
+  }
+
+  .part1{
+    display: flex;
+    width: 45%;
+    flex-wrap: wrap;
+    padding: 2%;
+   }
+
+  .part2{
+    display:flex;
+    flex-wrap: wrap;
+    width: 45%;
+    padding: 2%;
+    }
+
+   .p2 {
+    margin-top: 80%;
+    padding-right: 5%;
+    }
+
+    .headNav {
+    justify-content: space-evenly;
+    padding-right: 10%;
+    margin: 2%;
+    }
+
+}
