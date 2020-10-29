@@ -354,7 +354,7 @@ template {
     border: 5px solid red;
 } */
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 h1 {
@@ -534,3 +534,13 @@ footer {
     padding-top: 10%;
   }
 } /*closing tag for media*/
+
+/*About Page Styles*/
+.reachOut {
+  font-size: 4.7rem;
+}
+.aboutPageHeader {
+  font-size: 2.5rem;
+  font-family: "Courier Prime", monospace;
+  text-align: center;
+}
