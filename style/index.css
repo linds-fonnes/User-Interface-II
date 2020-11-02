@@ -535,7 +535,7 @@ footer {
   }
 } /*closing tag for media*/
 
-/*About Page Styles*/
+/*Contact Page Styles*/
 .reachOut {
   font-size: 4.7rem;
 }
@@ -563,19 +563,137 @@ footer {
   border: 3px solid black;
   /* /* height: 50%; */
   width: 45%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(217, 87, 147, 0.8);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.byEmail a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.byEmail a:hover {
+  color: black;
+  transform: scale(1.2);
 }
 
 .byPhone {
   border: 3px solid black;
   width: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(217, 87, 147, 0.8);
+}
+
+.byPhone a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.byPhone a:hover {
+  color: black;
+  transform: scale(1.2);
 }
 
 .byLinkedIn {
   border: 3px solid black;
   width: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(217, 87, 147, 0.8);
 }
 
+.byLinkedIn a {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.byLinkedIn a:hover {
+  color: black;
+  transform: scale(1.2);
+}
 .byTwitter {
   border: 3px solid black;
   width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(217, 87, 147, 0.8);
+}
+
+.byTwitter a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.byTwitter a:hover {
+  color: Black;
+  transform: scale(1.2);
+}
+.footerGallery {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iconCredit {
+  display: flex;
+  flex-direction: column;
+  font-family: "Courier Prime", monospace;
+  text-decoration: none;
+  color: black;
+}
+
+.iconCredit a {
+  color: black;
+  text-decoration: none;
+}
+/****** CONTACT PAGE RESPONSIVENESS STYLES*****/
+
+@media (max-width: 800px) {
+  .reachOut {
+    font-size: 4.5rem;
+  }
+  .aboutPageHeader {
+    font-size: 2.2rem;
+  }
+  .contactMethods {
+    font-size: 2rem;
+    height: 850px;
+    width: 80%;
+  }
+  .byEmail a {
+    font-size: 1.5rem;
+  }
+  .byPhone a {
+    font-size: 1.5rem;
+  }
+
+  .byLinkedIn a {
+    font-size: 1.5rem;
+  }
+
+  .byTwitter a {
+    font-size: 1.5rem;
+  }
+
+  .footerGallery {
+    width: 75%;
+  }
+
+  .hide {
+    display: none;
+  }
 }
