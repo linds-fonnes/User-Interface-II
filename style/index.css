@@ -697,3 +697,42 @@ footer {
     display: none;
   }
 }
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 5rem;
+  }
+  .reachOut {
+    font-size: 3.7rem;
+  }
+  .contactMethods {
+    font-size: 2rem;
+    height: 800px;
+    width: 85%;
+  }
+  .hidelinkedin {
+    display: none;
+  }
+  .byEmail a:hover {
+    color: black;
+    transform: scale(1.1);
+  }
+
+  .byEmail {
+    align-items: center;
+  }
+  .byPhone {
+    padding-bottom: 6%;
+  }
+  .byTwitter {
+    padding-bottom: 8%;
+  }
+  .hide2 {
+    display: none;
+  }
+
+  .footerGallery {
+    width: 50%;
+    margin-left: 20%;
+  }
+}
